@@ -34,15 +34,15 @@ extension DailyScrum {
     static let sampleData: [DailyScrum] =
     [
         DailyScrum(title: "Web Dev",
-                   attendees: ["Rohit", "Dharani", "Hariharen"],
+                   attendees: ["Ram Prakash","Rohit", "Dharani", "Hariharen"],
                    lengthInMinutes: 10,
                    theme: .yellow),
         DailyScrum(title: "iOS Dev",
-                   attendees: ["Murali", "Kowshi", "Augxy"],
+                   attendees: ["Shyam","Murali", "Kowshi", "Augxy"],
                    lengthInMinutes: 5,
                    theme: .orange),
         DailyScrum(title: "Android Dev",
-                   attendees: ["Sathya", "Sneha", "Syed"],
+                   attendees: ["Shivram","Sathya", "Sneha", "Syed"],
                    lengthInMinutes: 5,
                    theme: .poppy)
     ]
