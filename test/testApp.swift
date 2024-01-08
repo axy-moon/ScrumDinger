@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct testApp: App {
+    @State private var scrums = DailyScrum.sampleData
     var body: some Scene {
         WindowGroup {
             ScrumView(scrums: DailyScrum.sampleData)
